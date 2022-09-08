@@ -1,0 +1,43 @@
+<html> 
+<head>
+    <title>Notion Quote - 1</title> 
+    <style>
+      #lbl {
+        display: flex;
+        font-family: sans-serif;
+        font-size: 16pt;
+        color: #0F7B6C;
+        padding: 0px;
+        border: 1px solid #ffffff;
+        justify-content: left;
+        line-height: 1.5;
+        height:85%;
+        font-weight: bold;
+        flex-direction: row;
+      }
+
+      #container {
+        display: flex;
+        align-items: flex-start;
+      
+      }
+
+      body{
+          background-color: #ffffff;
+      }
+    </style>
+</head>
+<body>
+    <div id="lbl"></div>
+</body>
+    
+    var quote = string
+    quote = "taking care of yourself is productive"
+
+    document.getElementById('lbl').innerHTML = `
+        <div class="container">
+          <div>${quote}</div>
+        <div/>
+    `;
+</script> 
+</html>
